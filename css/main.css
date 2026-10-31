@@ -71,7 +71,7 @@ nav {
   top: 36px;
   left: 950px;
   gap: 26px;
-    opacity: 1;
+  opacity: 1;
   border-radius: 14px;
   padding: 6px;
   z-index: 1;
@@ -166,7 +166,6 @@ nav {
     #2b0303 50%,
     #050000 100%
   );
-  /* background: linear-gradient(90deg, #e4252c, black, #e4252c); */
   width: 1512px;
   height: 320px;
   backdrop-filter: blur(496px);
@@ -253,10 +252,9 @@ nav {
   width: 443px;
   height: 216px;
   display: flex;
-    justify-content: center;
+  justify-content: center;
   flex-direction: column;
-  
-  }
+}
 
 .port-title {
   font-weight: 800;
@@ -290,8 +288,138 @@ nav {
 }
 
 .img {
-  
   position: relative;
   left: 130px;
   gap: 20px;
+}
+
+
+/* footer  */
+
+.behruz-footer {
+  padding: 180px 156px 0 157px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  top: 77.7px;
+  angle: 0 deg;
+  opacity: 1;
+}
+.behruz-foot-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 71px;
+  gap: 40px;
+  margin-bottom: 72px;
+  p {
+    color: white;
+  }
+  p {
+    margin-left: 21px;
+    width: 435px;
+    height: 51px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Proxima Nova;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 21px;
+    leading-trim: NONE;
+    line-height: 25.2px;
+    letter-spacing: 2%;
+  }
+}
+.behruz-foot-2 {
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 23px;
+  p {
+    margin-bottom: 24px;
+    width: 104px;
+    height: 26px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Proxima Nova;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 21px;
+    leading-trim: NONE;
+    line-height: 25.2px;
+    letter-spacing: 2%;
+    color: #ffffff;
+  }
+  h3 {
+    width: 261px;
+    height: 26px;
+    angle: 0 deg;
+    opacity: 1;
+
+    font-family: Proxima Nova;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 31.5px;
+    leading-trim: NONE;
+    line-height: 25.2px;
+    letter-spacing: 2%;
+    width: 261px;
+    height: 26px;
+    angle: 0 deg;
+    opacity: 1;
+    color: #ffffff;
+  }
+}
+.behruz-inner1 {
+  display: flex;
+  gap: 106px;
+}
+.behruz-in {
+  width: 640px;
+  height: 60px;
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  input {
+    margin-top: 9px;
+    margin-left: 10px;
+    background-color: #272727;
+    border: none;
+    width: 441px;
+    height: 26px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Proxima Nova;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 21px;
+    leading-trim: NONE;
+    line-height: 25.2px;
+    letter-spacing: 2%;
+    color: #5f5f5f;
+    align-items: center;
+  }
+  button {
+    width: 151px;
+    height: 44px;
+    background-color: #e92129;
+    font-family: Proxima Nova;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16.8px;
+    leading-trim: NONE;
+    line-height: 138%;
+    letter-spacing: 2%;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+  }
+}
+
+.footer-logo {
+  position: relative;
+  bottom: -100px;
 }
