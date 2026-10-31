@@ -77,9 +77,18 @@ nav {
   z-index: 1;
 }
 
-.fa-solid {
-  color: #e4252c;
+.select {
+  border: none;
+  color: white;
   margin-left: 8px;
+  background-color: #e4252c;
+  border-radius: 360px;
+  width: 25px;
+  height: 25px;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 10px;
+  padding: 2px;
 }
 
 /* hero  */
@@ -200,7 +209,6 @@ nav {
 .card {
   width: 250px;
   height: 235px;
-  /* gap: 30px; */
   padding: 16px;
   display: flex;
   align-items: center;
@@ -260,7 +268,6 @@ nav {
   font-weight: 800;
   font-style: Extrabold;
   font-size: 80px;
-  leading-trim: NONE;
   line-height: 106%;
   letter-spacing: 0%;
 }
@@ -269,7 +276,6 @@ nav {
   font-weight: 400;
   font-style: Regular;
   font-size: 18.51px;
-  leading-trim: NONE;
   line-height: 23.13px;
   letter-spacing: 0%;
 }
@@ -293,6 +299,161 @@ nav {
   gap: 20px;
 }
 
+.port-img {
+  margin-top: 195px;
+}
+
+/* test  */
+
+.test {
+}
+
+.test-inner {
+  margin-top: 248px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.test-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.test-title {
+  font-weight: 800;
+  font-style: Extrabold;
+  font-size: 80px;
+  line-height: 106%;
+  letter-spacing: 0%;
+}
+
+.test-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18.51px;
+  line-height: 23.13px;
+  letter-spacing: 0%;
+}
+
+.test-btn {
+  width: 186px;
+  height: 52px;
+  border: none;
+  border-radius: 12px;
+  padding-top: 14px;
+  padding-right: 30px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  background-color: #e92129;
+  color: white;
+}
+
+.test-img {
+  position: relative;
+  left: 130px;
+  gap: 20px;
+  width: 650px;
+  height: 474px;
+  angle: 0 deg;
+  opacity: 1;
+  gap: 24px;
+}
+
+/* book  */
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #121212 50%, #8b1e24 100%);
+  width: 1512px;
+  height: 484px;
+  margin-top: 65px;
+}
+
+.book-inner {
+  display: flex;
+  gap: 144px;
+}
+
+.book-box {
+  width: 578px;
+  height: 327px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.book-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #ffff;
+}
+
+.book-title {
+  color: white;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  leading-trim: NONE;
+  line-height: 104%;
+  letter-spacing: 0%;
+}
+
+.input-box {
+  width: 477px;
+  height: 363px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.textarea {
+  width: 477px;
+  height: 110px;
+  padding: 12px;
+  background-color: transparent;
+  border: 1px, solid, white;
+  color: white;
+  font-family: sans-serif;
+}
+
+.book-btn {
+  width: 113px;
+  height: 49px;
+  background-color: #e4252c;
+  color: white;
+  border: none;
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+}
+
+input {
+  width: 477px;
+  height: 42px;
+  padding: 12px;
+  border-width: 1px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+.img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 135px 0 80px 0;
+}
 
 /* footer  */
 
@@ -302,9 +463,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  top: 77.7px;
-  angle: 0 deg;
-  opacity: 1;
 }
 .behruz-foot-1 {
   display: flex;
@@ -320,13 +478,9 @@ nav {
     margin-left: 21px;
     width: 435px;
     height: 51px;
-    angle: 0 deg;
-    opacity: 1;
-    font-family: Proxima Nova;
     font-weight: 400;
     font-style: Regular;
     font-size: 21px;
-    leading-trim: NONE;
     line-height: 25.2px;
     letter-spacing: 2%;
   }
@@ -341,13 +495,9 @@ nav {
     margin-bottom: 24px;
     width: 104px;
     height: 26px;
-    angle: 0 deg;
-    opacity: 1;
-    font-family: Proxima Nova;
     font-weight: 400;
     font-style: Regular;
     font-size: 21px;
-    leading-trim: NONE;
     line-height: 25.2px;
     letter-spacing: 2%;
     color: #ffffff;
@@ -355,20 +505,14 @@ nav {
   h3 {
     width: 261px;
     height: 26px;
-    angle: 0 deg;
-    opacity: 1;
 
-    font-family: Proxima Nova;
     font-weight: 700;
     font-style: Bold;
     font-size: 31.5px;
-    leading-trim: NONE;
     line-height: 25.2px;
     letter-spacing: 2%;
     width: 261px;
     height: 26px;
-    angle: 0 deg;
-    opacity: 1;
     color: #ffffff;
   }
 }
@@ -390,13 +534,9 @@ nav {
     border: none;
     width: 441px;
     height: 26px;
-    angle: 0 deg;
-    opacity: 1;
-    font-family: Proxima Nova;
     font-weight: 400;
     font-style: Regular;
     font-size: 21px;
-    leading-trim: NONE;
     line-height: 25.2px;
     letter-spacing: 2%;
     color: #5f5f5f;
@@ -406,11 +546,9 @@ nav {
     width: 151px;
     height: 44px;
     background-color: #e92129;
-    font-family: Proxima Nova;
     font-weight: 700;
     font-style: Bold;
     font-size: 16.8px;
-    leading-trim: NONE;
     line-height: 138%;
     letter-spacing: 2%;
     color: #ffffff;
